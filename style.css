@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.up-header {
+  display: none;
+}
+
+.bgimg {
+  position: relative;
+  height: 100vh;
+}
+
+.bgimg .overlay {
+  background-image: url('./images/bgimg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  filter: blur(1.5px);
+}
+
+.first-container .information {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  z-index: 2;
+  justify-content: center;
+  margin: 60px;
+  padding: 30px;
+}
+
+.first-container .header-home {
+  color: #ec5242;
+}
+
+.first-container .header-home .heading1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+}
+
+.first-container .event-details {
+  color: #272a31;
+}
+
+.second-container {
+  /* background-image: url('./images/bgforabout.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #272a31;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.second-container .programs {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.second-container .about-heading {
+  margin: 30px 0 50px;
+}
+
+.second-container h2.about-heading::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 80%;
+}
+
+.second-container .program h3 {
+  color: #ec5242;
+}
+
+.cover-gradient-program {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(102, 100, 100), #535050);
+  opacity: 0.7;
+}
+
+.cover-gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgb(243, 241, 241), #fff0);
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 968px) {
+  .up-header {
+    display: flex;
+    background-color: #272a31;
+  }
+
+  .container-fluid .icon {
+    display: none;
+  }
+}
