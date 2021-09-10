@@ -1,0 +1,30 @@
+
+.first-content {
+  background-color: #e6e6e6;
+}
+
+.first-content .detail-desc {
+  border: 1px solid rgb(223, 223, 223);
+  width: 960px;
+  background: rgb(255, 255, 255);
+}
+
+.about-second-section {
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.about-second-section .wlit-logo {
+  width: 134px;
+  height: 189px;
+}
+
+.footer-flex {
+  background-color: #272a31;
+  height: 200px;
+  color: #fff;
+}
+
+.footer-flex .footer-logo a {
+  text-decoration: none;
+  color: white;
+}
