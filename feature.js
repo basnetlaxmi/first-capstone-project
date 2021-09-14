@@ -4,7 +4,7 @@ const speakers = [
     alt: 'Speaker-1',
     name: 'yohai benkler',
     designation: 'Professor at Harvard Law School',
-    biography: 'Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.'
+    biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
   },
 
@@ -13,7 +13,7 @@ const speakers = [
     alt: 'Speaker-2',
     name: 'yohai benkler',
     designation: 'Professor at Harvard Law School',
-    biography: 'Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.'
+    biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
   },
 
@@ -22,7 +22,7 @@ const speakers = [
     alt: 'Speaker-3',
     name: 'yohai benkler',
     designation: 'Professor at Harvard Law School',
-    biography: 'Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.'
+    biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
   },
 
@@ -31,7 +31,7 @@ const speakers = [
     alt: 'Speaker-4',
     name: 'yohai benkler',
     designation: 'Professor at Harvard Law School',
-    biography: 'Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.'
+    biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
   },
 
@@ -40,16 +40,16 @@ const speakers = [
     alt: 'Speaker-5',
     name: 'yohai benkler',
     designation: 'Professor at Harvard Law School',
-    biography: 'Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.'
+    biography: 'Focusing on a collaborative approach in a networked environment, he created the open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
   },
 
   {
-    image: './images/speaker_05.png',
+    image: './images/speaker_06.png',
     alt: 'Speaker-5',
     name: 'yohai benkler',
     designation: 'Professor at Harvard Law School',
-    biography: 'Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.'
+    biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
   },
 ];
@@ -57,12 +57,12 @@ const speakers = [
 const speakersContainer = document.querySelector('.speakers');
 
 function speaker(s) {
-  return `<div class="speaker d-flex justify-content-around mt-3 ps-3">
-    <img src="${s.image}" alt="${s.alt}">
-        <div class="ps-2">
+  return `<div class="speaker d-flex mb-4">
+    <img src="${s.image}" alt="${s.alt}" class="img-fluid">
+        <div class="speaker-info">
         <h3>${s.name}</h3> 
         <h5>${s.designation}</h5>
-        <p class="w-75">${s.biography}</p>
+        <p>${s.biography}</p>
         </div>
     </div>
  `;
