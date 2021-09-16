@@ -2,7 +2,7 @@ const speakers = [
   {
     image: './images/speaker_01.png',
     alt: 'Speaker-1',
-    name: 'yohai benkler',
+    name: 'Shyam Chhetri',
     designation: 'Professor at Harvard Law School',
     biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
@@ -11,7 +11,7 @@ const speakers = [
   {
     image: './images/speaker_02.png',
     alt: 'Speaker-2',
-    name: 'yohai benkler',
+    name: 'Krishna Chauhan',
     designation: 'Professor at Harvard Law School',
     biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
@@ -20,7 +20,7 @@ const speakers = [
   {
     image: './images/speaker_03.png',
     alt: 'Speaker-3',
-    name: 'yohai benkler',
+    name: 'Menaka Khanal',
     designation: 'Professor at Harvard Law School',
     biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
@@ -29,7 +29,7 @@ const speakers = [
   {
     image: './images/speaker_04.png',
     alt: 'Speaker-4',
-    name: 'yohai benkler',
+    name: 'Tulasa Neupane',
     designation: 'Professor at Harvard Law School',
     biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
@@ -38,7 +38,7 @@ const speakers = [
   {
     image: './images/speaker_05.png',
     alt: 'Speaker-5',
-    name: 'yohai benkler',
+    name: 'Laxmi Basnet',
     designation: 'Professor at Harvard Law School',
     biography: 'Focusing on a collaborative approach in a networked environment, he created the open source software and Wikipedia.'
     + '(Main books: The Wealth of the Network , Penguins and Leviathan )',
@@ -46,7 +46,7 @@ const speakers = [
 
   {
     image: './images/speaker_06.png',
-    alt: 'Speaker-5',
+    alt: 'Rupesh Basnet',
     name: 'yohai benkler',
     designation: 'Professor at Harvard Law School',
     biography: 'Focusing on a collaborative approach in a networked environment, he created open source software and Wikipedia.'
@@ -57,11 +57,11 @@ const speakers = [
 const speakersContainer = document.querySelector('.speakers');
 
 function speaker(s) {
-  return `<div class="speaker d-flex mb-4">
+  return `<div class="speaker col-12 col-md-6 d-flex mb-4">
     <img src="${s.image}" alt="${s.alt}" class="img-fluid">
-        <div class="speaker-info">
-        <h3>${s.name}</h3> 
-        <h5>${s.designation}</h5>
+        <div class="speaker-info font">
+        <h3 class="font-bold">${s.name}</h3> 
+        <h5 class="color1">${s.designation}</h5>
         <p>${s.biography}</p>
         </div>
     </div>

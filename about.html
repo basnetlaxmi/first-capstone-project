@@ -32,26 +32,35 @@
         </div>
     </section>    
     <section class="hamburger-menu">
+        <div class="container-fluid">
+            <a href="#"><img class="icon" src="./images/hamburger.png" alt="three lines of hamburger menu "></a>
+            
+        </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">Laxmi</a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <nav class="navbar navbar-expand-md navbar-md-light bg-light">
+            <div class="collapse navbar-collapse">
+                <a href="#"><img src="./images/close.png" id="close-ham-img" alt="closeX"></a>
+                    <a href="index.html" class="navbar-brand"><img src="./images/logo.png"></a>
                     
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                            <a class="nav-link active font" aria-current="page" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Program</a>
+                            <a class="nav-link color font" href="#">Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">join</a>
+                            <a class="nav-link color font" href="#">join</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sponsor</a>
+                            <a class="nav-link color font" href="#">Sponsor</a>
                         </li>
-                        <button class="header-btn">Apply Now</button>
+                        <li class="nav-item">
+                            <a class="nav-link color font" href="#">News</a>
+                        </li>
+                        <li class="nav-item" id="nav-btn">
+                            <a class="nav-link active" href="#">Apply Now</a>
+                        </li>
                     
                     </ul>
                 </div>
@@ -84,41 +93,55 @@
       </div>
     </section>
 
-      <section class="about-second-section d-flex flex-column align-items-center mt-5">
+      <section class="about-second-section d-flex flex-column align-items-center m-5">
         <h3>Software Developers Global Hackathons 2021 Logo</h3>
         <p>The logo of SD Global Summit 2021 was decided throught the logo competition form 8.June to 7.July.
         </p>
-        <img src="./images/wlit_logo.svg" alt="logo-image" class="wlit-logo">
+        <img src="./images/logo.png" alt="logo-image" class="wlit-logo">
         <hr>
       </section>
     
-      <section class="events d-flex flex-column align-items-center mt-5">
+      <section class="events d-flex flex-column align-items-center m-5">
         <h4>See the past Global Hackathons</h4>
         <p>Take a look at the last two SD Global Summits which took place in Buenos Aires and in Warsaw.</p>
-        <div class="events-images">
+        <div class="events-images m-5">
           <img src="./images/event2.png" alt="first-event" class="first-event">
           <img src="./images/event1.png" alt="second-event" class="second-event">
         </div>
       </section>
 
       
-          
-  <footer>
-        <div class="footer-flex d-flex mt-5">
-            <div class="footer-logo">
-                <a href="./index.html">WLIT Global Hackathon</a>
-            </div>
-            <div class="rights-section">
-                    <p class="copyright">
-                        2021 WLIT Global Hackathon
-                        Some Rights Reserved
-                    </p>
-            </div>
+      <footer class="mt-5"> 
+            
+        <div class="up-footer bg-dark bg-gradient">
+            <div class="row w-100">
+           
+            <h3 class="mt-4 text-center">
+                Partner
+
+            </h3>
+        
+                <div class="col-6 col-sm-3">
+                    <img src="./images/mozilla.png">
+                </div>
+                <div class="col-6 col-sm-3">
+                 <img src="./images/line-friends.png">
+                 </div>
+                 <div class="col-6 col-sm-3">
+                <img src="./images/googlekorea.png">
+                </div>
+                <div class="col-6 col-sm-3">
+                 <img src="./images/airbnb.png">
+                </div>
+        
         </div>
-  </footer>
-
-      
-
+    </div>
+    <div class="down-footer d-flex justify-content-center h-5">
+        <img src="./images/logo.png">
+        <h4>2021 WLIT Hackathon Some Rights Reserved</h4>
+    </div>
+</footer>  
 </main>
+<script src="feature.js"></script>
 </body>
 </html>
