@@ -21,7 +21,7 @@
 }
 
 .first-content {
-  background-image: url('./images/mobile_intro_bg.png');
+  background-image: url('../images/mobile_intro_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

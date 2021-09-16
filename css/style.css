@@ -73,12 +73,13 @@ html {
 }
 
 .first-container {
-  background-image: url('./images/mobile_intro_bg.png');
+  background-image: url('../images/bgimgfinal.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   text-align: center;
   padding: 30px;
+  height: 100vh;
 }
 
 .font-bold {
@@ -243,10 +244,7 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .first-container {
-    height: 90vh;
-  }
-
+ 
   .first-container .information {
     margin: 50px;
     text-align: left;
