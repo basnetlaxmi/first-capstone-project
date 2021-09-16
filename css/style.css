@@ -37,8 +37,12 @@ html {
   transition: all 1s ease-out;
 }
 
-#navbarNavDropdown a:focus,
-a:hover {
+#navbarNavDropdown a:focus {
+  color: #333;
+  background-color: #fff;
+}
+
+#navbarNavDropdown a:hover {
   color: #333;
   background-color: #fff;
 }
