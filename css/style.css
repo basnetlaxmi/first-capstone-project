@@ -37,12 +37,8 @@ html {
   transition: all 1s ease-out;
 }
 
+#navbarNavDropdown a:hover,
 #navbarNavDropdown a:focus {
-  color: #333;
-  background-color: #fff;
-}
-
-#navbarNavDropdown a:hover {
   color: #333;
   background-color: #fff;
 }
@@ -244,7 +240,6 @@ p {
 }
 
 @media screen and (min-width: 768px) {
- 
   .first-container .information {
     margin: 50px;
     text-align: left;
