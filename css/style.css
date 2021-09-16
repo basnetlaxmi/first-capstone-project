@@ -34,13 +34,6 @@ html {
   font-size: 20px;
   text-decoration: none;
   margin: 3px 50px;
-  transition: all 1s ease-out;
-}
-
-#navbarNavDropdown a:hover,
-#navbarNavDropdown a:focus {
-  color: #333;
-  background-color: #fff;
 }
 
 #nav-btn {
@@ -75,7 +68,6 @@ html {
   width: 100%;
   text-align: center;
   padding: 30px;
-  height: 100vh;
 }
 
 .font-bold {
@@ -240,6 +232,10 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  .first-container {
+    height: 90vh;
+  }
+
   .first-container .information {
     margin: 50px;
     text-align: left;
