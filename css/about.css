@@ -42,6 +42,17 @@
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .down-footer {
+    background: #272a31;
+    color: white;
+  }
+
+  .down-footer .mob-logo {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 767.99px) {
   .first-content {
     width: 100%;
@@ -63,17 +74,29 @@
   }
 
   .events .events-images .first-event {
-    height: 50%;
-    width: 90%;
-    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
   }
 
   .events .events-images .second-event {
-    height: 30%;
-    width: 90%;
+    height: auto;
+    width: 100%;
   }
 
   .up-footer {
     display: flex;
+  }
+
+  .down-footer {
+    background: #fff;
+  }
+
+  .down-footer .desktop-logo {
+    display: none;
+  }
+
+  .events-para {
+    text-align: center;
   }
 }

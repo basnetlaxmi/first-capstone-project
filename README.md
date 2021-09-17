@@ -16,7 +16,7 @@
 - GitHub Flow 
 
 ## Live Demo
- [Live Preview of my website](https://basnetlaxmi.github.io/first-capstone-project/)
+ [Live Preview of my website](https://basnetlaxmi.github.io/first-capstone-project/index.html)
 
 ## Getting Started
 

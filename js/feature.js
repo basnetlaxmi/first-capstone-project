@@ -57,7 +57,7 @@ const speakers = [
 const speakersContainer = document.querySelector('.speakers');
 
 function speaker(s) {
-  return `<div class="speaker col-12 col-md-6 d-flex mb-4">
+  return `<div class="speaker mb-5 col-12 col-md-5 d-flex">
     <img src="${s.image}" alt="${s.alt}" class="img-fluid">
         <div class="speaker-info font">
         <h3 class="font-bold">${s.name}</h3> 
