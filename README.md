@@ -4,7 +4,7 @@
 
 > This is my first capstone project in the Microverse of Module 1 in which I built WLT Global Hackathon website platform . This is my responsive desktop version and mobile version hackathon site. The objective was to build a website by sticking with some design criteria. For that I created first-capstone-repo and cloned into my local machine. For best practices I have implemented Linter,Github Flow and professional documentation as much as I can. For the reference, you can click [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) to look at the design that i sticked on.
 
-![screenshot](./imges/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 
 
